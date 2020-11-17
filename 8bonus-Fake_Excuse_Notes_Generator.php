@@ -43,9 +43,9 @@
         <?php
         if(isset($_GET['submit'])){
             $name = $_GET['name'];
-            $_GET['gender']=="boy" ? $gender="Il" : $gender="Elle";
-            $_GET['genderT']=="mister" ? $genderT="Monsieur" : $genderT="Madame";
-            $teacher =$_GET['teacher'];
+            $_GET['gender'] == "boy" ? $gender="Il" : $gender="Elle";
+            $_GET['genderT'] == "mister" ? $genderT="Monsieur" : $genderT="Madame";
+            $teacher = $_GET['teacher'];
             $date = date("d/m/Y");
 
             function random(){
