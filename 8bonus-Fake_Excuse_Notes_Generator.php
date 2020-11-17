@@ -25,7 +25,6 @@
         <input type="radio" name="genderT" value="miss"/>
         <label for="miss">Miss</label>
 
-
         <p>Reason for the absence:</p>
         <input type="radio" name="excuse" value="illness"/>
         <label for="illness">Illness</label>
